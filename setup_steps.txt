@@ -1,0 +1,29 @@
+#Creating new condo environment
+conda create -n pytorch python=3.5
+
+#activate the condo environment
+source activate pytorch
+
+#setting up notebooks with specific python version (python 3.5)
+conda install notebook ipykernel
+ipython kernel install --user
+
+#pytorch Installation command:
+conda install pytorch torchvision -c pytorch
+
+#numpy installation
+conda install -c anaconda numpy
+
+#Download glove vectors and extract glove.6B.100d.txt into “./data/“ folder
+Wget http://nlp.stanford.edu/data/glove.6B.zip
+
+#Data Files(you can download the data files from this repo)
+https://github.com/jayavardhanr/SLP-Final-Project/tree/master/data
+
+
+
+
+
+
+
+

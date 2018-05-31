@@ -18,7 +18,11 @@ conda install -c anaconda numpy
 Wget http://nlp.stanford.edu/data/glove.6B.zip
 
 #Data Files(you can download the data files from this repo)
+#place the data files inside "./data/"
 https://github.com/jayavardhanr/SLP-Final-Project/tree/master/data
+
+#create folder "./models" to store and download pretrained models
+mkdir models
 
 
 

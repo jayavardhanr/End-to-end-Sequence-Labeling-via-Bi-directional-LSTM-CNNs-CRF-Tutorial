@@ -14,15 +14,8 @@ conda install pytorch torchvision -c pytorch
 #numpy installation
 conda install -c anaconda numpy
 
-#Download glove vectors and extract glove.6B.100d.txt into “./data/“ folder
+#Download glove vectors and extract glove.6B.100d.txt into “./data“ folder
 Wget http://nlp.stanford.edu/data/glove.6B.zip
-
-#Data Files(you can download the data files from this repo)
-#place the data files inside "./data/"
-https://github.com/jayavardhanr/SLP-Final-Project/tree/master/data
-
-#create folder "./models" to store and download pretrained models
-mkdir models
 
 
 

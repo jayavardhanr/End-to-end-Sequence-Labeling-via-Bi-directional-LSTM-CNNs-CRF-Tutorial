@@ -10,15 +10,41 @@ This repository includes
 * Setup Instructions file
 * Pretrained models directory (The notebook will automatically download pre-trained models into this directory, as required)
 
+### Authors
+
+[**Anirudh Ganesh**](https://github.com/TheAnig)
+
+[**Peddamail Jayavardhan Reddy**](https://github.com/jayavardhanr)
+
 
 ### Installation
 The best way to install pytorch is via the [**pytorch webpage**](http://pytorch.org/)
 
-For more instructions, please refer the [**setup_steps.txt**](https://github.com/jayavardhanr/End-to-end-Sequence-Labeling-via-Bi-directional-LSTM-CNNs-CRF-Tutorial/blob/master/setup_steps.txt) file.
-    
- 
-### Authors
+### Setup
 
-[**Peddamail Jayavardhan Reddy**](https://github.com/jayavardhanr)
+#### Creating new Conda environment
+`conda create -n pytorch python=3.5`
 
-[**Anirudh Ganesh**](https://github.com/TheAnig)
+#### Activate the condo environment
+`source activate pytorch`
+
+#### Setting up notebooks with specific python version (python 3.5)
+```
+conda install notebook ipykernel
+ipython kernel install --user
+```
+
+#### PyTorch Installation command:
+`conda install pytorch torchvision -c pytorch`
+
+#### NumPy installation
+`conda install -c anaconda numpy`
+
+#### Download GloVe vectors and extract glove.6B.100d.txt into "./data/" folder
+
+`wget http://nlp.stanford.edu/data/glove.6B.zip`
+
+#### Data Files
+
+
+You can download the data files from within this repo [**over here**](https://github.com/TheAnig/NER-LSTM-CNN-Pytorch/tree/master/data)
